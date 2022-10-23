@@ -1,8 +1,8 @@
 :root {
-    --primary: red;
-    --spacing: 4rem;
+    --primary: #474dff;
     --dk-grey: #333;
     --max-width: 960px;
+    --spacing: 4rem;
     --img-width: 350px;
 }
 
@@ -45,8 +45,8 @@ article {
 footer {
     padding: var(--spacing);
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: rgb(139, 134, 134);
+    color: rgb(78, 7, 7);
 }
 
 .button {
@@ -92,12 +92,12 @@ footer {
 }
 
 .linkedin {
-    background-image: url(images/linkedin.svg);
+    background-image: url(images/linkedin.png);
 }
 
 
 .github {
-    background-image: url(images/github.svg);
+    background-image: url(images/GitHub-logo-500x281.png);
 }
 
 .header-link::after {
